@@ -1,4 +1,6 @@
 # this is the code that constructs plot 3
+# it depends on (will only work) if you run it
+# AFTER running power_data_setup.R
 
 png(filename = "plot3.png", width = 480, height = 480)
 s1data <- as.numeric(as.character(powerData$Sub_metering_1))

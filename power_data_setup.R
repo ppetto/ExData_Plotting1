@@ -1,5 +1,6 @@
 # this is the code that reads, subsets, and prepares my data
 # for the most part, and particularly for the first two plots
+# run this FIRST
 
 allPowerData <- read.table("household_power_consumption.txt", header = TRUE, sep = ";")
 feb1data <- subset(allPowerData, Date=="1/2/2007")
